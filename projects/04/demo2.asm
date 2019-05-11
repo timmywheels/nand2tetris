@@ -1,0 +1,14 @@
+@R0
+D=M
+
+@WHAT_DOES_THIS_DO
+D-1;JNE
+
+@R1
+M=0
+@END
+0;JMP
+
+(WHAT_DOES_THIS_DO)
+@R1
+M=1

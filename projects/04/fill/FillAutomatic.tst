@@ -29,7 +29,7 @@ repeat 1000000 {
 }
 output;              // test that the screen is black
 
-set RAM[24576] 0,    // they keyboard in untouched
+set RAM[24576] 0,    // the keyboard in untouched
 repeat 1000000 {
   ticktock;
 }
